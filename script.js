@@ -42,9 +42,9 @@ document.querySelectorAll('.nav-link').forEach(link => {
 // Typing effect for hero section
 const typingText = document.querySelector('.typing-text');
 const titles = [
-    'Cloud DevOps Engineer',
+    'Cloud & DevOps Engineer',
     'Platform Engineer',
-    'Infrastructure Architect',
+    'Infrastructure Engineer',
     'Automation Specialist'
 ];
 let titleIndex = 0;
