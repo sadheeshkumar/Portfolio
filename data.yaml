@@ -1,29 +1,36 @@
 experience:
-  - title: "Senior Cloud DevOps Engineer"
+  - title: "Cloud Platform Engineer"
     company: "KPMG Global Services"
-    duration: "2022 - Present"
+    duration: "21 - July-2022 - Present"
     location: "Banglore"
     bullets:
-      - "Led cloud migration initiatives for enterprise applications"
-      - "Implemented GitOps practices using ArgoCD and Flux"
-      - "Reduced infrastructure costs by 40% through optimization"
-      - "Partnered with security and platform teams to define cloud governance and SRE best practices"
+      - "Automated Azure DevOps setup to reduce manual effort to onboard LOB's"
+      - "Maintaining large platform infrastructure Terraform modules to keep them up to date and add new modules based on business requirements"
+      - "Providing RBAC request for Azure resources"
+      - "Working on RAG based AI Assistant as part of our organization's AI enablement"
 
   - title: "Cloud Engineer"
     company: "Tata Consultancy Services"
-    duration: "15-October-2020 - 17-July-2025"
+    duration: "15 - October - 2020 - 17 - July - 2025"
     location: "Banglore, Montevideo(Uruguay)"
     bullets:
-      - "Managed Kubernetes clusters and containerized applications"
       - "Developed automation scripts for operational tasks"
-      - "Collaborated with development teams on platform improvements"
+      - "Implemented a queue length based AWS auto-scaling mechanism"
+      - "Automated infrastructure deployments using Terraform"
+      - "Led the infrastructure implementation for TCS TIDES AI System for a leading BFSI client in USA"
+      - "Implemented AWS Systems Manager (SSM) for automated patching, ensuring compliance and security updates across EC2 instances"
+      - "Configured AWS Guard Duty with Lambda to scan incoming S3 files for potential threats, improving security posture"
+      - "Maintained Route53 DNS records and SSL certificates on AWS Cert Manager"
       - "Standardized logging, metrics, and tracing patterns across services"
+      - "Optimized auto-scaling policies and load balancers, ensuring 99.99% uptime for critical applications"
+      - "Implemented AWS Cost Explorer and Resource Tagging Strategies, reducing cloud expenses by 25%"
+      - "Collaborated with development teams on platform improvements"
 
 projects:
-  - title: "Multi-Cloud Kubernetes Platform"
-    description: "Designed and deployed a production-ready multi-cloud Kubernetes platform spanning AWS and Azure, with automated failover, disaster recovery, and policy-based governance."
-    icon: "kubernetes"
-    tags: ["Kubernetes", "Terraform", "AWS", "Azure"]
+  # - title: "Multi-Cloud Kubernetes Platform"
+  #   description: "Designed and deployed a production-ready multi-cloud Kubernetes platform spanning AWS and Azure, with automated failover, disaster recovery, and policy-based governance."
+  #   icon: "kubernetes"
+  #   tags: ["Kubernetes", "Terraform", "AWS", "Azure"]
 
   - title: "CI/CD Pipeline Automation"
     description: "Built enterprise-grade CI/CD pipelines using GitLab CI and Jenkins, reducing deployment time by 70%, improving code quality, and standardizing release workflows across teams."
@@ -31,19 +38,30 @@ projects:
     tags: ["GitLab CI", "Jenkins", "Docker", "SonarQube"]
 
   - title: "Infrastructure as Code Framework"
-    description: "Created a reusable IaC framework using opinionated Terraform modules, enabling rapid, consistent cloud infrastructure provisioning across multiple environments."
+    description: "Created and maintained a reusable IaC framework using opinionated Terraform modules, enabling rapid, consistent cloud infrastructure provisioning across multiple environments."
     icon: "code-branch"
-    tags: ["Terraform", "AWS", "Modules", "GitOps"]
+    tags: ["Terraform", "AWS", "Modules", "Azure"]
 
+  - title: "AI Assistant"
+    description: "Automated end to end provisioning of Azure DevOps setup including Adding users & group, RBAC, service connection and Azure VMSS agent pool."
+    icon: "fa-solid fa-robot"
+    tags: ["Python", "REST API", "Automation", "Azure DevOps"]
+
+  # - title: "Security & Compliance Automation"
+  #   description: "Automated security scanning and compliance checks in CI/CD pipelines, integrating SAST/DAST, container scanning, and policy-as-code to meet regulatory standards."
+  #   icon: "shield-alt"
+  #   tags: ["Security", "Compliance", "Automation", "DevSecOps"]
+
+  - title: "Azure DevOps Automation"
+    description: "Automated end to end provisioning of Azure DevOps setup including Adding users & group, RBAC, service connection and Azure VMSS agent pool."
+    icon: "fa-solid fa-robot"
+    tags: ["Python", "REST API", "Automation", "Azure DevOps"]
+  
+  
   - title: "Observability Platform"
-    description: "Implemented a comprehensive observability stack using Prometheus, Grafana, and ELK for 100+ microservices, including SLO dashboards and actionable alerting."
+    description: "Implemented a comprehensive observability stack using Prometheus, Grafana for Azure resources, including dashboards and actionable alerting."
     icon: "chart-line"
-    tags: ["Prometheus", "Grafana", "ELK", "Alerting"]
-
-  - title: "Security & Compliance Automation"
-    description: "Automated security scanning and compliance checks in CI/CD pipelines, integrating SAST/DAST, container scanning, and policy-as-code to meet regulatory standards."
-    icon: "shield-alt"
-    tags: ["Security", "Compliance", "Automation", "DevSecOps"]
+    tags: ["Prometheus", "Grafana", "Cloud Watch","Alerting"]
 
   - title: "Developer Platform"
     description: "Built an internal developer platform that provides self-service infrastructure templates, golden paths, and deployment capabilities for application teams."
@@ -58,18 +76,16 @@ skills:
         level: 90
       - name: "Azure"
         level: 85
-      - name: "Google Cloud"
-        level: 75
 
   - category: "Container & Orchestration"
     icon: "dharmachakra"
     items:
       - name: "Kubernetes"
-        level: 88
-      - name: "Docker"
-        level: 92
-      - name: "Helm"
         level: 80
+      - name: "Docker"
+        level: 80
+      - name: "Helm"
+        level: 40
 
   - category: "Infrastructure as Code"
     icon: "code"
@@ -77,17 +93,15 @@ skills:
       - name: "Terraform"
         level: 90
       - name: "Ansible"
-        level: 85
-      - name: "CloudFormation"
-        level: 78
+        level: 80
 
   - category: "CI/CD & Tools"
     icon: "infinity"
     items:
+      - name: "Azure DevOps"
+        level: 85
       - name: "Jenkins"
         level: 87
-      - name: "GitLab CI/CD"
-        level: 85
       - name: "GitHub Actions"
         level: 90
 
@@ -98,18 +112,18 @@ skills:
         level: 85
       - name: "Grafana"
         level: 88
-      - name: "ELK Stack"
+      - name: "AWS Cloud Watch"
         level: 80
 
   - category: "Programming"
     icon: "python"
     items:
       - name: "Python"
-        level: 88
+        level: 80
       - name: "Bash/Shell"
-        level: 90
+        level: 60
       - name: "Go"
-        level: 75
+        level: 10
 
 certifications:
   - name: "AWS Certified Cloud Practitioner"
