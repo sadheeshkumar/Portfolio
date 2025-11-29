@@ -149,7 +149,7 @@ certifications:
   - name: "Azure Administrator"
     provider: "Microsoft Azure"
     type: "image"
-    iconPath: "icons/AZ-104.PNG"
+    iconPath: "icons/AZ-104.png"
 
   - name: "Azure Virtual Desktop Specialty"
     provider: "Microsoft Azure"
@@ -165,5 +165,6 @@ certifications:
   #   provider: "HashiCorp"
   #   type: "image"
   #   iconPath: "icons/HashiCorp Terraform.svg"
+
 
 
