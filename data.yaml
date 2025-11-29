@@ -1,0 +1,155 @@
+experience:
+  - title: "Senior Cloud DevOps Engineer"
+    company: "KPMG Global Services"
+    duration: "2022 - Present"
+    location: "Banglore"
+    bullets:
+      - "Led cloud migration initiatives for enterprise applications"
+      - "Implemented GitOps practices using ArgoCD and Flux"
+      - "Reduced infrastructure costs by 40% through optimization"
+      - "Partnered with security and platform teams to define cloud governance and SRE best practices"
+
+  - title: "Cloud Engineer"
+    company: "Tata Consultancy Services"
+    duration: "15-October-2020 - 17-July-2025"
+    location: "Banglore, Montevideo(Uruguay)"
+    bullets:
+      - "Managed Kubernetes clusters and containerized applications"
+      - "Developed automation scripts for operational tasks"
+      - "Collaborated with development teams on platform improvements"
+      - "Standardized logging, metrics, and tracing patterns across services"
+
+projects:
+  - title: "Multi-Cloud Kubernetes Platform"
+    description: "Designed and deployed a production-ready multi-cloud Kubernetes platform spanning AWS and Azure, with automated failover, disaster recovery, and policy-based governance."
+    icon: "kubernetes"
+    tags: ["Kubernetes", "Terraform", "AWS", "Azure"]
+
+  - title: "CI/CD Pipeline Automation"
+    description: "Built enterprise-grade CI/CD pipelines using GitLab CI and Jenkins, reducing deployment time by 70%, improving code quality, and standardizing release workflows across teams."
+    icon: "rocket"
+    tags: ["GitLab CI", "Jenkins", "Docker", "SonarQube"]
+
+  - title: "Infrastructure as Code Framework"
+    description: "Created a reusable IaC framework using opinionated Terraform modules, enabling rapid, consistent cloud infrastructure provisioning across multiple environments."
+    icon: "code-branch"
+    tags: ["Terraform", "AWS", "Modules", "GitOps"]
+
+  - title: "Observability Platform"
+    description: "Implemented a comprehensive observability stack using Prometheus, Grafana, and ELK for 100+ microservices, including SLO dashboards and actionable alerting."
+    icon: "chart-line"
+    tags: ["Prometheus", "Grafana", "ELK", "Alerting"]
+
+  - title: "Security & Compliance Automation"
+    description: "Automated security scanning and compliance checks in CI/CD pipelines, integrating SAST/DAST, container scanning, and policy-as-code to meet regulatory standards."
+    icon: "shield-alt"
+    tags: ["Security", "Compliance", "Automation", "DevSecOps"]
+
+  - title: "Developer Platform"
+    description: "Built an internal developer platform that provides self-service infrastructure templates, golden paths, and deployment capabilities for application teams."
+    icon: "server"
+    tags: ["Platform Eng", "Self-Service", "API", "Portal"]
+
+skills:
+  - category: "Cloud Platforms"
+    icon: "cloud"
+    items:
+      - name: "AWS"
+        level: 90
+      - name: "Azure"
+        level: 85
+      - name: "Google Cloud"
+        level: 75
+
+  - category: "Container & Orchestration"
+    icon: "dharmachakra"
+    items:
+      - name: "Kubernetes"
+        level: 88
+      - name: "Docker"
+        level: 92
+      - name: "Helm"
+        level: 80
+
+  - category: "Infrastructure as Code"
+    icon: "code"
+    items:
+      - name: "Terraform"
+        level: 90
+      - name: "Ansible"
+        level: 85
+      - name: "CloudFormation"
+        level: 78
+
+  - category: "CI/CD & Tools"
+    icon: "infinity"
+    items:
+      - name: "Jenkins"
+        level: 87
+      - name: "GitLab CI/CD"
+        level: 85
+      - name: "GitHub Actions"
+        level: 90
+
+  - category: "Monitoring & Observability"
+    icon: "chart-line"
+    items:
+      - name: "Prometheus"
+        level: 85
+      - name: "Grafana"
+        level: 88
+      - name: "ELK Stack"
+        level: 80
+
+  - category: "Programming"
+    icon: "python"
+    items:
+      - name: "Python"
+        level: 88
+      - name: "Bash/Shell"
+        level: 90
+      - name: "Go"
+        level: 75
+
+certifications:
+  - name: "AWS Certified Cloud Practitioner"
+    provider: "AWS"
+    type: "image"
+    iconPath: "icons/AWS-CPE.png"
+
+  - name: "AWS Certified AI Practitioner"
+    provider: "AWS"
+    type: "image"
+    iconPath: "icons/AWS-AI.png"
+
+  - name: "AWS Solutions Architect - Associate"
+    provider: "AWS"
+    type: "image"
+    iconPath: "icons/AWS-SAA.png"
+
+  - name: "Microsoft Azure Fundamentals"
+    provider: "Microsoft Azure"
+    type: "image"
+    iconPath: "icons/AZ-900.png"
+
+  - name: "Azure Administrator"
+    provider: "Microsoft Azure"
+    type: "image"
+    iconPath: "icons/AZ-104.PNG"
+
+  - name: "Azure Virtual Desktop Specialty"
+    provider: "Microsoft Azure"
+    type: "image"
+    iconPath: "icons/AZ-140.png"
+
+  # - name: "CKA - Certified Kubernetes Administrator"
+  #   provider: "CNCF"
+  #   type: "image"
+  #   iconPath: "icons/kubernets.svg"
+
+  # - name: "HashiCorp Terraform Associate"
+  #   provider: "HashiCorp"
+  #   type: "image"
+  #   iconPath: "icons/HashiCorp Terraform.svg"
+
+
